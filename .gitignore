@@ -1,0 +1,54 @@
+# CMake and build output
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Generated build-system files
+Makefile
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Compiled binaries, libraries, and object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app/
+
+# IDE and editor state
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# Logs, temporary files, and coverage output
+*.log
+*.tmp
+*.temp
+*.gcda
+*.gcno
+*.profraw
+
+# Local CMake presets and machine-specific configuration
+CMakeUserPresets.json
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
